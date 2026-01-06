@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📚 Book Library</h1>
+
+<h2>Categories</h2>
+
+<a href="syllabus.html" class="category">📘 Syllabus Books</a>
+<a href="novels.html" class="category">📕 Novels</a>
+<a href="jokes.html" class="category">😂 Jokes Books</a>
+<a href="stories.html" class="category">📗 Story Books</a>
+
+
+<script>
+function openPage(page) {
+    window.location.href = page;
+
+
+}
+</script>
+<div class="category" onclick="openPage('syllabus.html')">📘 Syllabus</div>
+<div class="category" onclick="openPage('novels.html')">📕 Novels</div>
+<div class="category" onclick="openPage('jokes.html')">😂 Jokes</div>
+<div class="category" onclick="openPage('stories.html')">📗 Stories</div>
+
+<script>
+function openPage(page) {
+    window.location.href = page;
+}
+</script>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>

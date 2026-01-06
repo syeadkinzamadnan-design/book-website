@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Student Login</h2>
+
+<input type="text" placeholder="Enter your name"><br><br>
+<input type="email" placeholder="Enter your email"><br><br>
+<form action="library.html" onsubmit="return validateLogin()">
+
+<button class="btn" onclick="goLibrary()">Next</button>
+
+<script>
+function goLibrary() {
+    window.location.href = "library.html";
+}
+</script>
+
+</body>
+<script src="script.js"></script>
+<form onsubmit="return validateLogin()">
+
+</html>
